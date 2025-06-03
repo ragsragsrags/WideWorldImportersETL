@@ -42,4 +42,9 @@ These are the changes on this workflow:
       * If you want to migrate data by using the current date just configure the date to before 1/1/2013 say 12/31/2012, and it should use the system time.
   - To validate data, you may use the Data Validation.sql, just update the @NewCutoff date to the configured date in the SSIS project
 
-There may be some other changes so I've included the WideWorldImporters database and the script for creating WideWorldImportersDW database.  Also, included is the SSIS project.
+For the source database, it is located here: https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0
+![image](https://github.com/user-attachments/assets/5e0fdfe9-f2f8-42f2-b9b8-0f3f6383aca0)
+Add the stored procedures using the WideWorldImportersSPUpdates.sql file
+
+For the destination database, please use this WideWorldImportersDW.sql file to create new database
+
