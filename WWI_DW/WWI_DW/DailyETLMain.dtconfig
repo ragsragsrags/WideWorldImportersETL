@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTSConfiguration>
+	<DTSConfigurationHeading>
+		<DTSConfigurationFileInfo 
+			GeneratedBy="RUEL_RAGPA\ruel_" 
+			GeneratedFromPackageName="DailyETLMain" 
+			GeneratedFromPackageID="{A533C74B-15D9-44F6-84ED-5B34EC12E971}" 
+			GeneratedDate="5/29/2025 9:30:01 PM"/>
+	</DTSConfigurationHeading>
+	<Configuration 
+		ConfiguredType="Property" 
+		Path="\Package.Variables[User::ConfiguredTargetETLCutoffTime].Properties[Value]" 
+		ValueType="DateTime">
+		<ConfiguredValue>1/1/2013</ConfiguredValue>
+	</Configuration>
+</DTSConfiguration>

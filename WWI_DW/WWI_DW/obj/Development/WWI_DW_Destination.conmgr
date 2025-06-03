@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="WWI_DW_Destination"
+  DTS:DTSID="{89F8C4AC-3223-42D3-8234-C819E3064D31}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=RUEL_RAGPA\MSSQLSERVER03;Initial Catalog=WideWorldImportersDW2;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-WWI_DW-{89F8C4AC-3223-42D3-8234-C819E3064D31}RUEL_RAGPA\MSSQLSERVER03.WideWorldImportersDW2;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
